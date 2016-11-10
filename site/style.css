@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+
+    padding: 0px;
+}
+body{
+    background-image: url(http://moop.ru/wp-content/uploads/2016/09/pattern_14.png);
+    background-repeat: repeat;
+
+}
+.row{
+        padding: 8px 0 0 0px;
+}
+.main{
+    padding: 0;
+    background-color: white;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+    margin: 0 auto;
+    width: 79%;
+    height: 680px;
+}
+div.top-bar{
+    padding: 0;
+    background-color: #f1f8fb;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+    margin: 0 auto;
+}
+.container {
+    height: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 0px
+}
+.top-bar{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.top-bar-left{
+    font-family: sans-serif;
+    padding-right: 0;
+}
+.top-bar-right{
+    padding-left: 50%;
+    margin-top: -15px;
+}
+.textwidget-right{
+    text-align: right;
+}
+.content{
+    margin: 17px 0;
+    height: 85%;
+    width: 100%;
+    background-color: #f1f8fb;
+    float: left;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+li > a{
+    text-decoration: blink;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.logo{
+        margin: 50px 0px;
+}
+p{
+    font-family: monospace;
+    color: #676262;
+    font-size: 16px;
+}
+.menu{
+    width: 100%;
+    height: 37px;
+    margin: 0px 0px;
+    padding: 0px;
+    display: inline-table;
+    list-style: none;
+    position: relative;
+}
+#main-menu{
+    margin: 0px;
+    padding: 0;
+    background-color: #73cbee;
+}
+hr{
+    margin: -4px 0px;
+    background-color: #31a8d5;
+    height: 4px;
+}
+#head{
+    background-color: #31a8d5;
+}
+li{
+    
+ 
+    line-height: 42px;
+    padding: 0px 10px;
+    height: 44px;
+    display: inline-block;
+    background-color: #73cbee; 
+    color: white;
+}
+li:hover{
+    background-color: #3cb2de;
+}
+#main-menu .menu{
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+#main-menu .menu > li{
+    float: left;
+    line-height: 42px;
+    height: 44px;
+    display: inline-block;
+}
+#img{
+    background-image: url(image/12.jpg);
+    background-repeat: no-repeat;
+    width: 675px;
+    height: 600px;
+    background-size: contain;
+    margin: 16px 0;
+}
+#img12{
+    width: 694px;
+    margin: 15px 0;
+}
+#img13{
+    margin: -38px 40px;
+    width: 359px;
+}
+#img14{
+    float: left;
+    margin: 63px 42px;
+}
+#text1{
+    position: absolute;
+    bottom: -78px;
+    left: 122px;
+    width: 640px;
+}
+#text1 > a{
+    color: white;
+}
+#img15{
+    margin: 63px -15px;
+}
+.heals > li{
+    margin: 14px 0px;
+    font-size: 13px;
+    height: 38px;
+    background-color: #0ca4dd;
+}
+.fa::before{
+    content: "\f015";
+    color: #999999;
+    font-family: FontAwesome;
+}
+#img > a{
+    color: #acacac;
+    float: left;
+    margin-top: 387px;
+    margin-left: 16px;
+
+}
+#img2{
+    background-image: url(image/13.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    margin: -37px 727px;
+    width: 372px;
+    height: 271px;
+    background-size: 317px;
+}
+#img2 > li{
+    margin: 14px 0px;
+    font-size: 13px;
+    height: 38px;
+    background-color: #0ca4dd;
+}
+
+#img2 > a{
+    color: #f1f8fb;
+    float: left;
+    margin-top: 198px;
+    margin-left: 16px;
+}
+#img3{
+    background-image: url(image/14.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    margin: 13px 726px;
+    width: 175px;
+    height: 151px;
+    background-size: 162px;
+}
+#img3 > a{
+    color: #f1f8fb;
+    float: left;
+    margin-top: 96px;
+    margin-left: 19px;
+    width: 39px;
+}
+#img4{
+    background-image: url(image/15.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    margin: -164px 899px;
+    width: 146px;
+    height: 151px;
+    background-size: 162px;
+}
+#img4 > a{
+    color: #f1f8fb;
+    float: left;
+    margin-top: 55px;
+    margin-left: 3px;
+}
+.gradient{
+    margin: 369px 0px;
+    padding: 0px 7px;
+    width: 98%;
+    height: 71px;
+    background: linear-gradient(to top, #161616, rgba(241, 218, 54, 0));
+}
+.gradient > a{
+    color: white;
+}
+.gradient > i{
+    font-size: 11px;
+    color: #B3B3B3
+}
+.gradient #comment{
+    margin-left: 439px;
+}
+#ocean{
+    margin: 133px 0px;
+    padding: 0px 7px;
+    width: 81%;
+    height: 32px;
+    background: linear-gradient(to top, #161616, rgba(241, 218, 54, 0));
+}
+#planetary{
+    margin: 90px 0px;
+    padding: 0px 7px;
+    width: 85%;
+    height: 42px;
+    background: linear-gradient(to top, #161616, rgba(241, 218, 54, 0));
+}
+#taxi{
+    margin: 48px 0px;
+    padding: 0px 7px;
+    width: 91%;
+    height: 84px;
+    background: linear-gradient(to top, #161616, rgba(241, 218, 54, 0));
+}
